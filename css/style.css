@@ -355,14 +355,16 @@ p {
   width: 200px;
   height: 50px;
   margin-left: 12px;
-  /* display: inline-block;
+  /* display: flex;
   column-gap: 24px; */
 }
 
-/* .footer__button--icon {
-  display: inline-flex;
-  justify-items: center;
-} */
+.footer__button--icon {
+  /* display: inline-flex;
+  justify-items: center; */
+  margin-left: 20px;
+  /* margin-top: 15px; */
+}
 /* porfolio */
 .bookmarks__buttons {
   display: flex;
